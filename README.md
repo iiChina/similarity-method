@@ -7,8 +7,9 @@ Este site é um artigo que explica um algoritmo de comparação de similaridade 
 O algoritmo funciona da seguinte forma:
 
 - Primeiro, ele divide cada string em um conjunto de pares de caracteres adjacentes. Por exemplo, a string "FRANCE" seria dividida em {"FR", "RA", "AN", "NC", "CE"}.
-- Segundo, ele calcula a interseção entre os dois conjuntos, ou seja, os pares de caracteres que são comuns às duas strings. Por exemplo, a interseção entre {"FR", "RA", "AN", "NC", "CE"} e {"FRENCH"} seria {"FR", "NC"}.
-- Terceiro, ele divide o tamanho da interseção pelo tamanho médio dos dois conjuntos, obtendo um valor entre 0 e 1 que representa a similaridade entre as strings. Quanto maior o valor, mais similares são as strings. Por exemplo, a similaridade entre "FRANCE" e "FRENCH" seria 2 / (5 + 4) = 0.222.
+- Segundo, ele calcula a interseção entre os dois conjuntos, ou seja, os pares de caracteres que são comuns às duas strings. Por exemplo, a interseção entre "FRANCE" e "FRENCH" seria {"FR", "NC"}.
+- Terceiro, ele divide o tamanho da interseção pelo tamanho dos dois conjuntos, obtendo um valor entre 0 e 1 que representa a similaridade entre as strings. Quanto maior o valor, mais similares são as strings. Por exemplo, a similaridade entre "FRANCE" e "FRENCH" seria (2 * 2) / 10  = 0.4.
+![Como acender um fósforo] (http://www.catalysoft.com/images/howtostrikeamatch001.gif)
 
 ## Comparação com outros métodos
 
