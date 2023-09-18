@@ -1,6 +1,6 @@
 # Strike a Match Algorithm
 
-É um algoritmo de comparação de similaridade entre duas strings, chamado de "Strike a Match". O algoritmo é baseado na contagem de pares de caracteres comuns entre as strings, dividindo o tamanho da interseção pelo tamanho médio dos conjuntos de pares. O algoritmo é capaz de reconhecer a similaridade lexical, a robustez à mudança de ordem das palavras e a independência da língua.
+É um algoritmo de comparação de similaridade entre duas strings, chamado de "Strike a Match". O algoritmo é baseado na contagem de pares de caracteres comuns entre as strings, dividindo o tamanho da interseção pelo tamanho dos conjuntos de pares. O algoritmo é capaz de reconhecer a similaridade lexical, a robustez à mudança de ordem das palavras e a independência da língua.
 
 ## Fórmula do algoritmo
 
