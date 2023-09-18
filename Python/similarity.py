@@ -13,7 +13,6 @@ def word_letter_pairs(s):
 
     # Tokenize the string and put the tokens/words into an array
     words = s.split()
-
     # Para cada palavra
     for word in words:
         # Encontre os pares de caracteres
